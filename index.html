@@ -10,90 +10,115 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        
     </head>
-    <header id="header">
-        <img id="header-ing" src="img/company-logo.jpg" >
-        <nav id="nav-bar">
-            <a  class="nav-link" href="#">Feature</a>
-            <a  class="nav-link" href="#">How it Works</a>
-            <a  class="nav-link" href="#">Pricing</a>
-        </nav>
-    </header>
+    
     <body>
-        <h1>handcrafted, home-made masterpices</h1>
-        <form id="form">
-            <input id="email" type="text" placeholder="Enter your email address here" name="email" required>
-            <input id="sumit" type="button" value="GET STARTED" name="email">
-        </form>
-        <section>
-            <article>
-                <i class="fas fa-fire"></i>
-                <h2>Premium Materials</h2> 
-                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase</p>
-            </article>
-            <article>
-                <i class="fas fa-truck"></i>
-                <h2>Fast Shipping</h2>
-                <p>>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-            </article>
-            <article>
-                <i class="fas fa-battery-full"></i>
-                <h2> Quality Assurance</h2>
-                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-            </article>
-        </section>
-        <iframe id="video" width="420" height="315" target="_blank"
-            src="https://www.youtube.com/embed/y8Yv4pnO7qc?autoplay=1" frameborder="0" target="_blank">
-            
-        </iframe>
-        <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                        TENOR TROMBONE
-                    </div>
-                <div class="card-body">
-                <h5 class="card-title">$600</h5>
-                <p class="card-text">
-                        Lorem ipsum.<br>
-                        Lorem ipsum.<br>
-                        Lorem ipsum dolor.<br>
-                        Lorem ipsum</p>
-                <a href="#" class="btn btn-primary">Select</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                    <div class="card-header">
-                            BASS TROMBONE
-                        </div>
-                    <div class="card-body">
-                    <h5 class="card-title">$900</h5>
-                    <p class="card-text">
-                            Lorem ipsum.<br>
-                            Lorem ipsum.<br>
-                            Lorem ipsum dolor.<br>
-                            Lorem ipsum</p>
-                    <a href="#" class="btn btn-primary">Select</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                        <div class="card-header">
-                                VALVE TROMBONE
-                            </div>
-                        <div class="card-body">
-                        <h5 class="card-title">$1000</h5>
-                        <p class="card-text">
-                                Lorem ipsum.<br>
-                                Lorem ipsum.<br>
-                                Lorem ipsum dolor.<br>
-                                Lorem ipsum</p>
-                        <a href="#" class="btn btn-primary">Select</a>
-                        </div>
-                    </div>
 
+        <header id="header">
+                <img id="header-img" src="img/logo.png" >
+                <nav id="nav-bar">
+                    <a  class="nav-link" href="#section">Feature</a>
+                    <a  class="nav-link" href="#video">How it Works</a>
+                    <a  class="nav-link" href="#card-title">Pricing</a>
+                </nav>
+        </header>       
+        <main>
+            <h1>handcrafted, home-made masterpices</h1>
+            <form id="form">
+                <input id="email" type="text" placeholder="Enter your email address here" name="email" required>
+                <input id="submit" type="submit" value="GET STARTED" name="email">
+            </form>
+            <section id="section">
+                <article>
+                    <i class="fas fa-fire"></i>
+                    <div class="article">
+                            <h2>Premium Materials</h2> 
+                            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase</p>
+                    </div>
+                    
+                </article>
+                <article>
+                    <i class="fas fa-truck"></i>
+                    <div class="article">
+                            <h2>Fast Shipping</h2>
+                            <p>>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                    </div>   
+                </article>
+                <article>
+                    <i class="fas fa-battery-full"></i>
+                    <div class="article">
+                            <h2> Quality Assurance</h2>
+                            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                    </div>
+                </article>
+            </section>
+            <iframe id="video"  height="315" target="_blank"
+                src="https://www.youtube.com/embed/y8Yv4pnO7qc?autoplay=1" frameborder="0" target="_blank">
+                
+            </iframe>
+            <div class="container">
+                <div class="row">
+                        <div class="col-sm-2 ">
+                        </div>
+                        <div class="col-sm-3 ">
+                                <div class="card">
+                                        <div class="card-header">
+                                                TENOR TROMBONE
+                                            </div>
+                                        <div class="card-body">
+                                        <h5 class="card-title">$600</h5>
+                                        <p class="card-text">
+                                                Lorem ipsum.<br>
+                                                Lorem ipsum.<br>
+                                                Lorem ipsum dolor.<br>
+                                                Lorem ipsum</p>
+                                        <a href="#" class="btn btn-primary">Select</a>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="col-sm-3 ">
+                                <div class="card" >
+                                        <div class="card-header">
+                                                BASS TROMBONE
+                                            </div>
+                                        <div class="card-body">
+                                        <h5 class="card-title">$900</h5>
+                                        <p class="card-text">
+                                                Lorem ipsum.<br>
+                                                Lorem ipsum.<br>
+                                                Lorem ipsum dolor.<br>
+                                                Lorem ipsum</p>
+                                        <a href="#" class="btn btn-primary">Select</a>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-sm-3 ">
+                                <div class="card" >
+                                        <div class="card-header">
+                                                VALVE TROMBONE
+                                            </div>
+                                        <div class="card-body">
+                                        <h5 id="card-title" class="card-title">$1000</h5>
+                                        <p class="card-text">
+                                                Lorem ipsum.<br>
+                                                Lorem ipsum.<br>
+                                                Lorem ipsum dolor.<br>
+                                                Lorem ipsum</p>
+                                        <a href="#" class="btn btn-primary">Select</a>
+                                        </div>
+                                </div>
+                        </div>
+                </div>         
+                            
+            </div>   
+    
+        </main>
         <footer>
-            <a href="" >privacy</a>
-            <a href="" >Terms</a>
-            <a href="" >contact</a>
+            <a href="#" >privacy</a>
+            <a href="#" >Terms</a>
+            <a href="#" >contact</a>
             <p>copyright 2016</p>
         </footer>
     </body>
